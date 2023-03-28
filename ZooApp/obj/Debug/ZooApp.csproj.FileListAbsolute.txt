@@ -1,0 +1,102 @@
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\bin\Debug\ZooApp.exe.config
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\bin\Debug\ZooApp.exe
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\bin\Debug\ZooApp.pdb
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZooApp.csproj.AssemblyReference.cache
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZooApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\AdminWindow.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\MainWindow.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\App.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZooApp_MarkupCompile.cache
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZooApp_MarkupCompile.lref
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\AdminWindow.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\MainWindow.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZooApp.g.resources
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZooApp.Properties.Resources.resources
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZooApp.csproj.GenerateResource.cache
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZooApp.csproj.CoreCompileInputs.cache
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZooApp.exe
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZooApp.pdb
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\RolesPage.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\RolesPage.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZonesPage.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZonesPage.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\AnimalsPage.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\AnimalsPage.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\EmployeesPage.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\FilialsPage.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\EmployeesPage.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\FilialsPage.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\UsersPage.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\UsersPage.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\WorkerWindow.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\WorkerWindow.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ProductTypesPage.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ProductTypesPage.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ProductsPage.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ProductsPage.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\SupportsPage.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\SupportsPage.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\PurchasePage.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\PurchasePage.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\bin\Debug\Microsoft.WindowsAPICodePack.dll
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\bin\Debug\Microsoft.WindowsAPICodePack.xml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ZooApp.csproj.CopyComplete
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\KassaWindow.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\KassaWindow.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ChecksPage.g.cs
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\obj\Debug\ChecksPage.baml
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\X-AROK\source\repos\ZooApp\ZooApp\bin\Debug\Newtonsoft.Json.xml
+D:\C# Projects\ZooApp\ZooApp\bin\Debug\ZooApp.exe.config
+D:\C# Projects\ZooApp\ZooApp\bin\Debug\ZooApp.exe
+D:\C# Projects\ZooApp\ZooApp\bin\Debug\ZooApp.pdb
+D:\C# Projects\ZooApp\ZooApp\bin\Debug\Microsoft.WindowsAPICodePack.dll
+D:\C# Projects\ZooApp\ZooApp\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\C# Projects\ZooApp\ZooApp\bin\Debug\Newtonsoft.Json.dll
+D:\C# Projects\ZooApp\ZooApp\bin\Debug\Microsoft.WindowsAPICodePack.xml
+D:\C# Projects\ZooApp\ZooApp\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\C# Projects\ZooApp\ZooApp\bin\Debug\Newtonsoft.Json.xml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZooApp.csproj.AssemblyReference.cache
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZooApp.csproj.SuggestedBindingRedirects.cache
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\AdminWindow.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\AnimalsPage.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ChecksPage.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\EmployeesPage.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\FilialsPage.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\KassaWindow.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\MainWindow.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ProductsPage.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ProductTypesPage.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\PurchasePage.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\RolesPage.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\SupportsPage.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\UsersPage.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\WorkerWindow.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZonesPage.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\App.g.cs
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZooApp_MarkupCompile.cache
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZooApp_MarkupCompile.lref
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\AdminWindow.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\AnimalsPage.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ChecksPage.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\EmployeesPage.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\FilialsPage.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\KassaWindow.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\MainWindow.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ProductsPage.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ProductTypesPage.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\PurchasePage.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\RolesPage.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\SupportsPage.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\UsersPage.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\WorkerWindow.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZonesPage.baml
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZooApp.g.resources
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZooApp.Properties.Resources.resources
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZooApp.csproj.GenerateResource.cache
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZooApp.csproj.CoreCompileInputs.cache
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZooApp.csproj.CopyComplete
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZooApp.exe
+D:\C# Projects\ZooApp\ZooApp\obj\Debug\ZooApp.pdb

@@ -1,0 +1,37 @@
+﻿<Page x:Class="ZooApp.PurchasePage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ZooApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PurchasePage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.1*"/>
+            <RowDefinition />
+            <RowDefinition Height="0.2*"  />
+            <RowDefinition Height="0.1*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition Width="0.1*" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" VerticalAlignment="Bottom" HorizontalAlignment="Center" Content="Все товары" />
+        <Label x:Name="PriceLabel" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Bottom" Content="Итоговая сумма: 0" />
+        <DataGrid x:Name="ProductsDataGrid" Grid.Row="1" Grid.Column="0" SelectionChanged="ProductsDataGrid_SelectionChanged" />
+        <StackPanel Grid.Row="1" Grid.Column="1" VerticalAlignment="Center">
+            <Button x:Name="AddButton" Content="+" Margin="0,0,0,20" IsEnabled="False" Click="AddButton_Click" />
+            <Button x:Name="RemoveButton" Content="-" IsEnabled="False" Click="RemoveButton_Click" />
+        </StackPanel>
+        <DataGrid x:Name="SelectedDataGrid" Grid.Row="1" Grid.Column="2" SelectionChanged="SelectedDataGrid_SelectionChanged" />
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="3">
+            <Label Content="Клиент заплатил" />
+            <TextBox x:Name="PayTextBox" />
+        </StackPanel>
+        <Button x:Name="SaveButton" Grid.Row="3" Grid.ColumnSpan="3" Click="SaveButton_Click" Content="Сохранить и получить чек" />
+    </Grid>
+</Page>
