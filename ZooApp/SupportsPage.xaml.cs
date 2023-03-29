@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -49,7 +50,12 @@ namespace ZooApp
             {
                 return;
             }
-
+            if (!Validatetelefon(phone))
+            {
+                MessageBox.Show("неверный формат");
+                return;
+            }
+            
             Supports.InsertQuery(filial.id, phone);
             SupportsDataGrid.ItemsSource = Supports.GetData();
         }
@@ -85,6 +91,11 @@ namespace ZooApp
             {
                 return;
             }
+            if (!Validatetelefon(phone))
+            {
+                MessageBox.Show("неверный формат");
+                return;
+            }
             int id = (int)(SupportsDataGrid.SelectedItem as DataRowView).Row[0];
             Supports.UpdateQuery(filial.id, phone, id);
             SupportsDataGrid.ItemsSource = Supports.GetData();
@@ -95,10 +106,23 @@ namespace ZooApp
             if (SupportsDataGrid.SelectedItem == null)
             {
                 return;
-            }
+            } 
             int id = (int)(SupportsDataGrid.SelectedItem as DataRowView).Row[0];
             Supports.DeleteQuery(id);
             SupportsDataGrid.ItemsSource = Supports.GetData();
+        }
+        private bool Validatetelefon(string telefon)
+        {
+            Regex regex = new Regex(@"^\+7\(\d\d\d\)\d\d\d-\d\d-\d\d$");
+            MatchCollection match = regex.Matches(telefon);
+            if (match.Count > 0)
+            {
+                return true;
+            }
+            else 
+            {
+                return false;
+            }
         }
     }
 }

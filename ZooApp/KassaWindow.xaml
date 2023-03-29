@@ -14,9 +14,11 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
             <ColumnDefinition />
+            <ColumnDefinition />
         </Grid.ColumnDefinitions>
         <Button x:Name="PurchaseButton" Grid.Column="0" Grid.Row="0" Content="Покупка" Click="PurchaseButton_Click" />
         <Button x:Name="ChecksButton" Grid.Column="1" Grid.Row="0" Content="Чеки" Click="ChecksButton_Click" />
         <Frame x:Name="PageFrame" Grid.Row="1" Grid.ColumnSpan="5" NavigationUIVisibility="Hidden" Margin="0,5,0,0" />
+        <Button x:Name="nasad" Content="назад" Grid.Row="0" Grid.Column="2"  Click="Button_Click" Grid.ColumnSpan="2"/>
     </Grid>
 </Window>

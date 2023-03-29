@@ -37,5 +37,12 @@ namespace ZooApp
             ChecksButton.IsEnabled = false;
             PageFrame.Source = new Uri("ChecksPage.xaml", UriKind.Relative);
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow window = new MainWindow();
+            window.Show();
+            Close();
+        }
     }
 }

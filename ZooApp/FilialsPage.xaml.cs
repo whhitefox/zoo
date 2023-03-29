@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -36,9 +37,14 @@ namespace ZooApp
             string worktime = WorkTimeTextBox.Text;
             if (address == "" || worktime == "")
             {
+                
                 return;
             }
-
+            if (!ValidateVremya(worktime))
+            {
+                MessageBox.Show("неверный формат");
+                return;
+            }
             Filials.InsertQuery(address, worktime);
             FilialsDataGrid.ItemsSource = Filials.GetData();
         }
@@ -104,6 +110,19 @@ namespace ZooApp
             catch
             {
                 MessageBox.Show("Ошибка при загрузке JSON");
+            }
+        }
+        private bool ValidateVremya(string vremya)
+        {
+            Regex regex = new Regex(@"^\d\d-\d\d$");
+            MatchCollection match = regex.Matches(vremya);
+            if (match.Count > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
             }
         }
     }

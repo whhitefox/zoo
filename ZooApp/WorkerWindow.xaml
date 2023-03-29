@@ -6,12 +6,13 @@
         xmlns:local="clr-namespace:ZooApp"
         mc:Ignorable="d"
         Title="WorkerWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="Nazadd">
         <Grid.RowDefinitions>
             <RowDefinition Height="0.1*" />
             <RowDefinition />
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
+            <ColumnDefinition />
             <ColumnDefinition />
             <ColumnDefinition />
             <ColumnDefinition />
@@ -22,5 +23,6 @@
         <Button x:Name="ProductTypesButton" Grid.Column="2" Grid.Row="0" Content="Типы товаров" Click="ProductTypesButton_Click" />
         <Button x:Name="ProductsButton" Grid.Column="3" Grid.Row="0" Content="Товары" Click="ProductsButton_Click" />
         <Frame x:Name="PageFrame" Grid.Row="1" Grid.ColumnSpan="4" NavigationUIVisibility="Hidden" Margin="0,5,0,0" />
+        <Button x:Name="Nassad" Content="назад" Grid.Column="5" Grid.Row="0"  Click="Button_Click" />
     </Grid>
 </Window>

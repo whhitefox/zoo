@@ -73,5 +73,13 @@ namespace ZooApp
             UsersButton.IsEnabled = true;
             PageFrame.Source = new Uri("SupportsPage.xaml", UriKind.Relative);
         }
+
+        
+        private void NazadButton_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow window = new MainWindow();
+            window.Show();
+            Close();
+        }
     }
 }

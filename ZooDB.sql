@@ -13,7 +13,7 @@ CREATE TABLE Animal(
 	id int NOT NULL identity(1,1) PRIMARY KEY,
 	name varchar(50) NOT NULL,
 	type varchar(50) NOT NULL,
-	zone_id int NOT NULL FOREIGN KEY REFERENCES Zone
+	zone_id int NOT NULL FOREIGN KEY REFERENCES Zone ON DELETE CASCADE
 )
 CREATE TABLE Filial(
 	id int NOT NULL identity(1,1) PRIMARY KEY,
@@ -23,19 +23,19 @@ CREATE TABLE Filial(
 CREATE TABLE Employee(
 	id int NOT NULL identity(1,1) PRIMARY KEY,
 	name varchar(50) NOT NULL,
-	filial_id int NOT NULL FOREIGN KEY REFERENCES Filial,
-	animal_id int NOT NULL FOREIGN KEY REFERENCES Animal,
-	role_id int NOT NULL FOREIGN KEY REFERENCES Role
+	filial_id int NOT NULL FOREIGN KEY REFERENCES Filial ON DELETE CASCADE,
+	animal_id int NOT NULL FOREIGN KEY REFERENCES Animal ON DELETE CASCADE,
+	role_id int NOT NULL FOREIGN KEY REFERENCES Role ON DELETE CASCADE
 )
 CREATE TABLE [User](
 	id int NOT NULL identity(1,1) PRIMARY KEY,
 	login varchar(50) NOT NULL,
 	password varchar(50) NOT NULL,
-	employee_id int NOT NULL FOREIGN KEY REFERENCES Employee
+	employee_id int NOT NULL FOREIGN KEY REFERENCES Employee ON DELETE CASCADE
 )
 CREATE TABLE Support(
 	id int NOT NULL identity(1,1) PRIMARY KEY,
-	filial_id int NOT NULL FOREIGN KEY REFERENCES Filial,
+	filial_id int NOT NULL FOREIGN KEY REFERENCES Filial ON DELETE CASCADE,
 	phone varchar(50) NOT NULL,
 )
 CREATE TABLE Product_Type(
@@ -45,8 +45,8 @@ CREATE TABLE Product_Type(
 CREATE TABLE Product(
 	id int NOT NULL identity(1,1) PRIMARY KEY,
 	name varchar(50) NOT NULL,
-	product_type_id int NOT NULL FOREIGN KEY REFERENCES Product_Type,
-	filial_id int NOT NULL FOREIGN KEY REFERENCES Filial,
+	product_type_id int NOT NULL FOREIGN KEY REFERENCES Product_Type ON DELETE CASCADE,
+	filial_id int NOT NULL FOREIGN KEY REFERENCES Filial ON DELETE CASCADE,
 	price float NOT NULL
 )
 CREATE TABLE [Check](
@@ -56,8 +56,8 @@ CREATE TABLE [Check](
 )
 CREATE TABLE Product_Check(
 	id int NOT NULL identity(1,1) PRIMARY KEY,
-	product_id int NOT NULL FOREIGN KEY REFERENCES Product,
-	check_id int NOT NULL FOREIGN KEY REFERENCES [Check],
+	product_id int NOT NULL FOREIGN KEY REFERENCES Product ON DELETE CASCADE,
+	check_id int NOT NULL FOREIGN KEY REFERENCES [Check] ON DELETE CASCADE,
 	count int NOT NULL
 )
 
